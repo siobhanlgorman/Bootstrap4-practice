@@ -4,6 +4,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -33,7 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-      }
+    }
 
 
 .opaque-overlay {
@@ -51,6 +60,21 @@ body {
 
 .features-container {}
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 /* block dividers */
 .block-divider {
     width: 75px;
@@ -63,10 +87,21 @@ body {
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 35px;
     
 }
+
+/* content containers */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 
 /* navbar */
 
@@ -90,7 +125,7 @@ body {
     border: 0;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     font-weight: bold;
 }
 
@@ -112,6 +147,7 @@ body {
 
 .jumbotron .lead {
     color: #a7a7a7;
+    margin: 25px 0;
 }
 
 .jumbotron small {
@@ -144,3 +180,25 @@ body {
     border-color: #df4929;
     color: white;
 }
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
